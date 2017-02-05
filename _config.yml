@@ -1,44 +1,39 @@
-# Site settings
-title: Swift
-description: A clean minimal Theme for Jekyll
-email: pranav@maangalabs.com
-baseurl: ""
-url: "https://jasonariana.github.io" # the base hostname & protocol for your site
-#favicon
-favicon: /favicon.png
+title: 天外天
+tagline: 天外有天，山外有山
+description: 一个程序员的技术和生活
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://blog.evercoding.net # the base hostname & protocol for your site
 
-#feed
-feedburner_username: maangalabs
-#twitter
-twitter_username: pranavrajs
-github_username:  pranavrajs
+author:
+  name: Ever
+  email: g.everax@gmail.com
+  github: iEverX
+  twitter: ieverx
+  weibo: ieverx
+start_year: 2012
 
-#linkedin
-linkedin_username: pranavrajs
+permalink: /:year/:month/:day/:title
+timezone: Asia/Shanghai
 
-#google analytics
-google_analytics_id : UA-53386152-2
-#gplus
-gplus_username: 101893920934936418705
+tags_path: /tags.html
+feed_path: /feed.xml
 
-#fb_username
-fb_username: pranav.tayberrycreative
-
-#permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
-# Build settings
 markdown: kramdown
+# highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-#Disqus configuration
-disqus_short_name: maangalabscom
-disqus_show_comment_count: true
+service:
+  comment: duoshuo
+  disqus:
+    short_name: evercoding
+  duoshuo: 
+    short_name: evercoding
+  google:
+    tracking_id : UA-54098391-1
+  baidu:
+    num: 286a0fd3582530031faa80f383f53a77
 
-#Can be used for multiple author blogs ! Add name to post For more visit the sample
-authors:
-  pranavrajs:
-    display_name: Pranav Raj S
-    email: pranavrajs@gmail.com
-    fb: pranav.tayberrycreative
-    linkedin: pranavrajs
-    twitter: pranavrajs
-    github: pranavrajs
+exclude: [README.md, CNAME]
+  
