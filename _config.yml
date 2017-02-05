@@ -2,8 +2,8 @@
 title: Swift
 description: A clean minimal Theme for Jekyll
 email: pranav@maangalabs.com
-baseurl: /
-#url: "https://jasonariana.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://jasonariana.github.io" # the base hostname & protocol for your site
 #favicon
 favicon: /favicon.png
 
