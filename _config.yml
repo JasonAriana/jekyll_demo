@@ -2,7 +2,7 @@
 title: Jason's Blog
 description: Jason's Blog
 baseurl: "/jekyll_demo" # the subpath of your site, e.g. /blog
-url: "https://jasonariana.github.io/jekyll_demo/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://jasonariana.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Jason And Ariana
