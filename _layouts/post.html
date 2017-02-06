@@ -10,7 +10,7 @@ layout: default
             </span>
             {% if page.tags != empty %}
                 <span>
-                    <i class="fa fa-tags"> {% for tag in page.tags %}</i> <a class="tag" href="{{ site.tags_path }}#{{ tag }}" rel="nofollow">{{ tag }}</a> {% endfor %}
+                    <i class="fa fa-tags"> {% for tag in page.tags %}</i> <a class="tag" href="{{site.baseurl}}{{ site.tags_path }}#{{ tag }}" rel="nofollow">{{ tag }}</a> {% endfor %}
                 </span>
             {% endif %}
         </div>
