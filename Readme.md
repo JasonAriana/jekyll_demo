@@ -1,4 +1,4 @@
-# EverCoding.net
+# JasonCoding
 
 A static blog built with [Jekyll][] on github pages
 
