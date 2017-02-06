@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "使用GitHub搭建博客总结"
 tagline: "build blog with github"
